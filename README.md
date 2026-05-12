@@ -1,11 +1,12 @@
 ARQUITECTURA DE RED SEGURA
 
+```text
 Credenciales de Acceso para Auditoria Técnica
 
 ** Acceso EXEC consola y privilegiado (R - SW): cisco
 ** Acceso remoto seguro (SSHv2): marquez / cisco123 
 ** Acceso WiFi (VLAN 88): SSID Red_Corporativa_Garcia /  Contraseña: Marquez_CCNA_2026
-
+```
 
 ![Diseño de la red](topología.png)
 
@@ -17,7 +18,7 @@ tras aplicar las políticas de endurecimiento (CCNA).
 
     
     ##### Switch de Acceso  ( SW-Garcia-NET) #####
-
+```text
 !
 hostname SW-Garcia-NET
 !
@@ -105,13 +106,13 @@ line vty 5 15
 !
 !
 end
-
+```
 
 
 
 
     #####  Router acceso ( R-Marquez-NET )  #####
-
+```text
 !
 hostname R-Marquez-NET
 !
@@ -199,7 +200,7 @@ line vty 0 4
 !
 !
 end
-
+```
 
 
 
